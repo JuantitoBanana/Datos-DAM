@@ -10,14 +10,14 @@ import java.io.IOException;
 /**
  * Servlet implementation class Ejercicio1
  */
-@WebServlet("/Ejercicio1")
-public class Ejercicio1 extends HttpServlet {
+@WebServlet("/SEjercicio11")
+public class SEjercicio11 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Ejercicio1() {
+    public SEjercicio11() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,13 +27,9 @@ public class Ejercicio1 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		/*
-		 * response.setContentType("text/plain");
-		 * response.getWriter().append("Hola mundo");
-		 */
-		
-		
-		
+		response.setContentType("text/plain");
+		response.getWriter().append("Hola mundo");
+		 
 		
 	}
 
