@@ -27,9 +27,17 @@ public class SEjercicio14 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		response.setContentType("text/plain");
 		
-		
-		
+		String saludo = request.getParameter("mensaje");
+        String firma = request.getParameter("firma");
+        
+        if(saludo == null || firma == null)
+        	response.getWriter().append("No has introducido los datos correctamente");
+        else {
+        	response.getWriter().append("Mensaje: " + saludo + "\n");
+            response.getWriter().append("Firma: " + firma);
+        }
 	}
 
 	/**
@@ -37,7 +45,13 @@ public class SEjercicio14 extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		response.setContentType("text/plain");
 		
+		String saludo = request.getParameter("mensaje");
+        String firma = request.getParameter("firma");
+        
+        response.getWriter().append("Mensaje: " + saludo + "\n");
+        response.getWriter().append("Firma: " + firma);
 		
 	}
 
