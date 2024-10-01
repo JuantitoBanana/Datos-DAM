@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\java\servlets\Ejemplo6.java"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb"/>
 			<item value="C:\Grado\AD-DAM\ProyectoSinArquetipo"/>
 			<item value="C:\Grado\AD-DAM"/>
@@ -16,7 +17,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -28,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.EjerciciosContexto"/>
 			<item value="gf.com.EjerciciosMavenWeb"/>
 			<item value="gf.com.EjemploMavenWeb"/>
 		</list>
@@ -35,6 +37,7 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="EjerciciosContexto"/>
 			<item value="EjerciciosMavenWeb"/>
 			<item value="EjemploMavenWeb"/>
 		</list>

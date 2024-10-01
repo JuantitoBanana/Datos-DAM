@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 !SESSION 2024-09-25 23:04:02.302 -----------------------------------------------
+=======
+!SESSION 2024-10-01 10:12:42.164 -----------------------------------------------
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 eclipse.buildId=4.33.0.20240905-0613
 java.version=21.0.4
 java.vendor=Eclipse Adoptium
@@ -7,6 +11,7 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\Grado\Datos-DAM\.metadata\.bak_0.log
+<<<<<<< HEAD
 Created Time: 2024-09-25 23:09:06.472
 
 !ENTRY org.eclipse.jst.jee.ui 4 0 2024-09-25 23:09:06.472
@@ -161,6 +166,14 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+Created Time: 2024-10-01 10:45:43.445
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:45:43.446
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -228,6 +241,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:06.479
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -249,30 +263,124 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:249)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:143)
 	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:45:43.446
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.402
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.403
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.404
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.405
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.413
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 10:45:50.416
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jst.jee 4 2 2024-10-01 10:48:27.404
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jst.jee".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'contex-param' not found. (platform:/resource/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml, 10, 17)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1022)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:187)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:238)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:156)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:147)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:93)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:483)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:456)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:638)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:719)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredUnloadedResources(ResourceSetWorkbenchEditSynchronizer.java:164)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredResources(ResourceSetWorkbenchEditSynchronizer.java:233)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:141)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:459)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:783)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5019)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4815)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.doSave(StructuredTextEditor.java:2007)
+	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.doSave(XMLMultiPageEditorPart.java:924)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$0(SaveableHelper.java:156)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:261)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2341)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2338)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:268)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:160)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3819)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3832)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:81)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:569)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:644)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1319)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1183)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:853)
-	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1191)
-	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1171)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1134)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1179)
-	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5138)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4756)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1225)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1221)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1704)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4849)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4727)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
-	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
-	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
-	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4165)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3706)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
@@ -292,6 +400,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:06.482
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -313,30 +422,134 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:249)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:143)
 	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+=======
+Caused by: org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'contex-param' not found. (platform:/resource/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml, 10, 17)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.reportUnknownFeature(XMLHandler.java:2055)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleUnknownFeature(XMLHandler.java:2019)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.handleUnknownFeature(XMIHandler.java:172)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleFeature(XMLHandler.java:1963)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1058)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:82)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1036)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:725)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:376)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:260)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:830)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 108 more
+
+!ENTRY org.eclipse.jst.jee 4 0 2024-10-01 10:48:27.406
+!MESSAGE org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'contex-param' not found. (platform:/resource/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml, 10, 17)
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'contex-param' not found. (platform:/resource/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml, 10, 17)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1022)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:187)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:238)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:156)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:147)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:93)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:483)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:456)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:638)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:719)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredUnloadedResources(ResourceSetWorkbenchEditSynchronizer.java:164)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredResources(ResourceSetWorkbenchEditSynchronizer.java:233)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:141)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:459)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:783)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5019)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4815)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.doSave(StructuredTextEditor.java:2007)
+	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.doSave(XMLMultiPageEditorPart.java:924)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$0(SaveableHelper.java:156)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:261)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2341)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2338)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:268)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:160)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3819)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3832)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:81)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:569)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:644)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1319)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1183)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:853)
-	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1191)
-	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1171)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1134)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1179)
-	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5138)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4756)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1225)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1221)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1704)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4849)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4727)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
-	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
-	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
-	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4165)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3706)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
@@ -356,6 +569,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:06.482
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1498,6 +1712,43 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+Caused by: org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'contex-param' not found. (platform:/resource/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml, 10, 17)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.reportUnknownFeature(XMLHandler.java:2055)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleUnknownFeature(XMLHandler.java:2019)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.handleUnknownFeature(XMIHandler.java:172)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleFeature(XMLHandler.java:1963)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1058)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:82)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1036)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:725)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:376)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:260)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:830)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 108 more
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.416
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1522,6 +1773,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.607
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1529,6 +1781,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.417
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.419
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1553,6 +1814,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.609
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1560,6 +1822,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.420
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.422
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1584,6 +1855,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.609
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1591,6 +1863,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.422
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.439
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1617,6 +1898,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.611
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1624,6 +1906,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.439
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.440
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1650,6 +1941,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.613
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1657,6 +1949,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.440
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.441
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1683,6 +1984,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.613
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1690,6 +1992,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.441
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.448
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1706,6 +2017,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.616
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1713,6 +2025,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.449
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.449
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1729,6 +2050,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.616
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1736,6 +2058,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.450
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.450
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1752,6 +2083,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.623
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1759,6 +2091,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.451
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.452
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1783,6 +2124,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.625
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1790,6 +2132,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.452
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.453
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1814,6 +2165,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.625
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1821,6 +2173,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.453
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.454
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1845,6 +2206,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.626
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1852,6 +2214,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.454
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.461
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1878,6 +2249,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.628
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1885,6 +2257,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.461
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.462
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1911,6 +2292,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.628
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1918,6 +2300,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.462
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.463
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1944,6 +2335,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.628
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1951,6 +2343,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.463
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.469
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1967,6 +2368,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.630
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1974,6 +2376,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.469
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.470
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -1990,6 +2401,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.631
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -1997,6 +2409,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.470
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.470
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2013,6 +2434,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.631
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2020,6 +2442,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.470
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.471
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2044,6 +2475,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.632
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2051,6 +2483,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.471
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.472
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2075,6 +2516,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.633
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2082,6 +2524,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.472
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.472
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2106,6 +2557,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.633
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2113,6 +2565,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.472
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.477
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2139,6 +2600,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.635
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2146,6 +2608,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.477
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.477
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2172,6 +2643,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.635
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2179,6 +2651,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.478
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.478
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2205,6 +2686,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.636
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2212,6 +2694,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.478
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.483
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2239,6 +2730,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.637
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2246,6 +2738,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.483
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.484
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2273,6 +2774,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.638
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -2280,6 +2782,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.484
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 10:52:03.484
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -2307,6 +2818,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:09:30.639
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -3055,6 +3567,53 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 10:52:03.484
+!MESSAGE Invalid path: '/EjemploMavenWeb/src/main/webapp/WEB-INF/web.xml'
+!SESSION 2024-10-01 11:37:56.690 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 11:38:29.843
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 11:38:34.711
+!MESSAGE Logback config file: C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-01 11:38:40.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bladiaju'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.925
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.926
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.927
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.928
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.940
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 11:41:40.945
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.159
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -3079,6 +3638,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:10:01.218
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -3091,11 +3651,29 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getServletClassName(WebDeployableArtifactUtil.java:276)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:175)
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.162
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.169
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
 	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
 	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
 	at org.eclipse.wst.server.core.internal.ServerPlugin.hasModuleArtifact(ServerPlugin.java:1298)
+<<<<<<< HEAD
 	at org.eclipse.wst.server.ui.internal.ServerPropertyTester.checkProperty(ServerPropertyTester.java:50)
+=======
+	at org.eclipse.wst.server.ui.internal.ServerPropertyTester.checkProperty(ServerPropertyTester.java:69)
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.wst.server.ui.internal.ServerPropertyTester.test(ServerPropertyTester.java:35)
 	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
 	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
@@ -3110,6 +3688,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:10:01.219
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
 
@@ -9541,6 +10120,15 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
 !STACK 1
 Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.170
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.200
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
@@ -9561,6 +10149,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
 	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
 	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+<<<<<<< HEAD
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:307)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:222)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:143)
@@ -9613,13 +10202,26 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 
 !ENTRY org.eclipse.jst.jee.ui 4 0 2024-09-25 23:12:44.008
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
+=======
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.pruneShortcuts(LaunchingResourceManager.java:407)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:331)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.201
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.209
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 !STACK 1
-Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
-	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getServletClassName(WebDeployableArtifactUtil.java:276)
-	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:175)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
 	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
 	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
@@ -9635,6 +10237,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
 	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
 	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+<<<<<<< HEAD
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:307)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:222)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:143)
@@ -9687,13 +10290,55 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 
 !ENTRY org.eclipse.jst.jee.ui 4 0 2024-09-25 23:12:44.008
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
+=======
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.210
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.211
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
 !STACK 1
-Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio5.html'
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
 	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
-	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getServletClassName(WebDeployableArtifactUtil.java:280)
-	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:175)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
+	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
+	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
+	at org.eclipse.wst.server.core.internal.ServerPlugin.hasModuleArtifact(ServerPlugin.java:1298)
+	at org.eclipse.wst.server.ui.internal.ServerPropertyTester.checkProperty(ServerPropertyTester.java:69)
+	at org.eclipse.wst.server.ui.internal.ServerPropertyTester.test(ServerPropertyTester.java:35)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.211
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2024-10-01 11:49:52.216
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/EjerciciosMavenWeb/pom.xml'
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1452)
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1442)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
 	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
 	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
 	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
@@ -9709,6 +10354,7 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
 	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
 	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+<<<<<<< HEAD
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:307)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:222)
 	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:143)
@@ -11540,3 +12186,353 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/Ejercicios
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
 !SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-09-25 23:15:03.724
 !MESSAGE Invalid path: '/EjerciciosMavenWeb/src/main/webapp/Ejercicio12.html'
+=======
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.pruneShortcuts(LaunchingResourceManager.java:407)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:331)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:258)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2024-10-01 11:49:52.216
+!MESSAGE Invalid path: '/EjerciciosMavenWeb/pom.xml'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-10-01 11:50:01.022
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-10-01 11:50:01.022
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-10-01 11:50:34.247
+!MESSAGE Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Grado\Datos-DAM\EjerciciosContexto\pom.xml: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18)  @ line 37, column 18
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Grado\Datos-DAM\EjerciciosContexto\pom.xml: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18)  @ line 37, column 18
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-10-01 11:50:34.258
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-10-01 11:50:34.259
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-10-01 11:51:54.842
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 26 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 28 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-10-01 11:51:54.843
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 3 (position: TEXT seen ...</dependencies>\r\n  </dependencies>... @37:18) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 28 more
+
+!ENTRY org.eclipse.jst.jee 4 0 2024-10-01 11:55:00.758
+!MESSAGE <project root> [in EjerciciosContexto] is not on its project's build path
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): <project root> [in EjerciciosContexto] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:533)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:380)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:303)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:518)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:534)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:508)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:499)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:464)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:455)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:459)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2024-10-01 11:55:00.758
+!MESSAGE <project root> [in EjerciciosContexto] is not on its project's build path
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.486
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.487
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.488
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.488
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.493
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-01 12:00:12.495
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+>>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40

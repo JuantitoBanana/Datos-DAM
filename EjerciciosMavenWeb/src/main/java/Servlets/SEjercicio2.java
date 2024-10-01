@@ -17,7 +17,7 @@ import Pojo.Persona;
 @WebServlet("/SEjercicio2")
 public class SEjercicio2 extends HttpServlet {
 	
-	private List<Persona> personas = new ArrayList<>();
+	private static List<Persona> personas = new ArrayList<>();
 	
 	private static final long serialVersionUID = 1L;
        

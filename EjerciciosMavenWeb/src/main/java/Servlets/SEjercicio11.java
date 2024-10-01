@@ -28,7 +28,26 @@ public class SEjercicio11 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.setContentType("text/plain");
-		response.getWriter().append("Hola mundo");
+		String saluda = request.getParameter("saludo")!=null?"HOLA MUNDO":"NO HAY SALUDO";
+		response.getWriter().append(saluda);
+		if(!saluda.equals("HOLA MUNDO")) {
+			switch((request.getParameter("idioma")!=null)?request.getParameter("idioma"):" ") {
+				case "espaniol":
+					response.getWriter().append("Hola Mundo");
+					break;
+				case "ingles":
+					response.getWriter().append("Hello World");
+					break;	
+				case "italiano":
+					response.getWriter().append("Ciao Monde");
+					break;
+		
+				case "frances":
+					response.getWriter().append("Bonjour Monde");
+					break;
+		
+			}
+		}
 		 
 		
 	}

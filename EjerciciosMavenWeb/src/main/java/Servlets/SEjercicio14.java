@@ -35,8 +35,8 @@ public class SEjercicio14 extends HttpServlet {
         if(saludo == null || firma == null)
         	response.getWriter().append("No has introducido los datos correctamente");
         else {
-        	response.getWriter().append("Mensaje: " + saludo + "\n");
-            response.getWriter().append("Firma: " + firma);
+        	response.getWriter().append("Mensaje: " + saludo + "\n")
+        	.append("Firma: " + firma);
         }
 	}
 
