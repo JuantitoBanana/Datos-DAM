@@ -9,17 +9,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class Ejercicio1
+ * Servlet implementation class Ejercicio3
  */
-@WebServlet("/Ejercicio1")
-public class Ejercicio1 extends HttpServlet {
+@WebServlet("/Ejercicio3")
+public class Ejercicio3 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private String paramColor = "";
-       
+    private int contador = 0;
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Ejercicio1() {
+    public Ejercicio3() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,7 +28,9 @@ public class Ejercicio1 extends HttpServlet {
 	 */
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
-		paramColor = config.getServletContext().getInitParameter("color");
+		if(getServletContext().getAttribute("contador") == null) {
+			getServletContext().setAttribute("contador", 0);
+		}
 	}
 
 	/**
@@ -37,14 +38,15 @@ public class Ejercicio1 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
-		if (request.getParameter("color") != null) {
-			paramColor = request.getParameter("color");
-			getServletContext().setAttribute("color", paramColor);
-		}
 		
-		response.getWriter().append("<html><body style='background-color:" + paramColor +";'>")
-							.append("<form action='Ejercicio1b' method='get'><input type='submit' value='enviar'></form>")
-							.append("</body></html>");
+		contador = (int) getServletContext().getAttribute("contador");
+		contador++;
+		getServletContext().setAttribute("contador", contador);
+		
+		
+        response.getWriter().println("<html><body>");
+        response.getWriter().println("<h1>Total de visitas: " + contador + "</h1>");
+        response.getWriter().println("</body></html>");
 	}
 
 }
