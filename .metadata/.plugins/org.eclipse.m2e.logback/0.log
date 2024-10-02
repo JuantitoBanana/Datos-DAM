@@ -2146,4 +2146,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2024-10-01 12:16:34,603 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\test\resources
 2024-10-01 12:17:38,755 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\main\resources
 2024-10-01 12:17:38,758 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\test\resources
+<<<<<<< HEAD
 >>>>>>> 19eff0b6818a1b9416a626b3f9875b73c9937b40
+=======
+2024-10-02 10:02:39,172 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-02 10:36:05,543 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\main\resources
+2024-10-02 10:36:05,554 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\test\resources
+2024-10-02 10:49:11,999 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\main\resources
+2024-10-02 10:49:12,001 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\test\resources
+2024-10-02 10:50:17,106 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\main\resources
+2024-10-02 10:50:17,109 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosContexto\src\test\resources
+2024-10-02 11:50:49,681 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+>>>>>>> fc97991356e8f6c230ff297f5ab0709747f077cc

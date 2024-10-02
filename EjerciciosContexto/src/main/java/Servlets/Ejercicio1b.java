@@ -9,17 +9,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class Ejercicio1
+ * Servlet implementation class Ejercicio1b
  */
-@WebServlet("/Ejercicio1")
-public class Ejercicio1 extends HttpServlet {
+@WebServlet("/Ejercicio1b")
+public class Ejercicio1b extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private String paramColor = "";
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Ejercicio1() {
+    public Ejercicio1b() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,23 +27,15 @@ public class Ejercicio1 extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		super.init(config);
-		paramColor = config.getServletContext().getInitParameter("color");
+		// TODO Auto-generated method stub
 	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html");
-		if (request.getParameter("color") != null) {
-			paramColor = request.getParameter("color");
-			getServletContext().setAttribute("color", paramColor);
-		}
-		
-		response.getWriter().append("<html><body style='background-color:" + paramColor +";'>")
-							.append("<form action=''>")
-		.append("</body></html>");
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 }
