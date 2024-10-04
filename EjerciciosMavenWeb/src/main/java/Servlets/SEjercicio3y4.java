@@ -15,7 +15,7 @@ import Pojo.Persona;
 /**
  * Servlet implementation class SEjercicio3
  */
-@WebServlet("/SEjercicio3")
+@WebServlet("/SEjercicio3y4")
 
 public class SEjercicio3y4 extends HttpServlet {
 	
