@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Grado\Datos-DAM\EjerciciosContexto"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\java\servlets\Ejemplo6.java"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb"/>
 			<item value="C:\Grado\AD-DAM\ProyectoSinArquetipo"/>
@@ -29,17 +30,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="gf.com.EjerciciosContexto"/>
-			<item value="gf.com.EjerciciosMavenWeb"/>
-			<item value="gf.com.EjemploMavenWeb"/>
+			<item value="gf.com.EjerciciosSesionCookies"/>
 		</list>
 		<list key="groupId">
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
-			<item value="EjerciciosContexto"/>
-			<item value="EjerciciosMavenWeb"/>
-			<item value="EjemploMavenWeb"/>
+			<item value="EjerciciosSesionCookies"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
