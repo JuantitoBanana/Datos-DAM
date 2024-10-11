@@ -17,7 +17,7 @@ import java.util.Map;
 @WebServlet("/Ejercicio3")
 public class Ejercicio3 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private Map<String, String> libros = new HashMap<String, String>();
+	private HashMap<String, String> libros = new HashMap<String, String>();
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -44,10 +44,9 @@ public class Ejercicio3 extends HttpServlet {
 		
 		response.setContentType("text/html");
 		response.setCharacterEncoding("UTF-8");
-		response.getWriter().append("<html><body><form action='Ejercicio3' method='post'>")
+		response.getWriter().append("<form action='Ejercicio3' method='post'>")
 							.append("<h2>Bienvenido a Web Librería. Seleccione el libro</h2>")
-							.append("<h4>Listado de libros:</h4>")
-							.append("<select name='libro'>");
+							.append("<h4>Listado de libros:</h4><select name='libro'>");
 							libros.forEach((k,v) -> {
 								try {
 									response.getWriter().append("<option>" + k + "</option");
@@ -57,7 +56,7 @@ public class Ejercicio3 extends HttpServlet {
 							});
 		response.getWriter().append("</select>")
 							.append("<h4>Unidades:</h4><input type='text' name='ud'><input type='submit' value='Enviar'>")
-							.append("</form></body></html>");
+							.append("</form>");
 		getServletContext().setAttribute("listaLibros", libros);
 	}
 
