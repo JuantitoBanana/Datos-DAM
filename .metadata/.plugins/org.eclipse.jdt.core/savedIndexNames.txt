@@ -1,10 +1,4 @@
 INDEX VERSION 1.134+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jdt.core
-3049558845.index
-1455312767.index
 764976497.index
-1752613285.index
-30096445.index
-1865797976.index
 2534398516.index
-2375802287.index
-930210439.index
+1865797976.index

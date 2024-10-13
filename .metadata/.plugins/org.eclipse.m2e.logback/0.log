@@ -4295,3 +4295,96 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionI
 2024-10-11 12:44:08,472 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
 2024-10-11 12:49:37,291 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
 2024-10-11 12:49:37,296 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:05:03,743 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-13 17:05:30,567 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-13 17:06:05,446 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-13 17:06:48,880 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjerciciosSesionCookies:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjerciciosSesionCookies\pom.xml.
+2024-10-13 17:06:48,880 [Worker-29: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjerciciosSesionCookies:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjerciciosSesionCookies\pom.xml.
+2024-10-13 17:06:52,831 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:06:52,837 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:06:54,028 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjerciciosSesionCookies:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjerciciosSesionCookies\pom.xml.
+2024-10-13 17:18:27,058 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:18:27,068 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:20:02,065 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:20:02,068 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:23:26,242 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:23:26,248 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:24:41,309 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:24:41,312 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:29:37,957 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjemploMavenWeb:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjemploMavenWeb\pom.xml.
+2024-10-13 17:29:38,545 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjemploMavenWeb:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjemploMavenWeb\pom.xml.
+2024-10-13 17:29:38,552 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\test\resources
+2024-10-13 17:29:39,287 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\resources
+2024-10-13 17:29:39,295 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\test\resources
+2024-10-13 17:29:39,296 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EjemploMavenWeb
+2024-10-13 17:29:39,298 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for EjemploMavenWeb
+2024-10-13 17:30:38,119 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:30:38,121 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:31:18,659 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:31:18,663 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:31:44,596 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:31:44,598 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:32:35,619 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:32:35,621 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:33:33,257 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:33:33,264 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:33:59,640 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:33:59,642 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:34:37,558 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:34:37,561 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:37:30,366 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:37:30,374 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:38:43,099 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:38:43,102 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:51:19,962 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:51:19,964 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:52:13,548 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:52:13,553 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:52:56,434 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:52:56,436 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:55:06,798 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:55:06,800 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:55:49,015 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:55:49,019 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:56:13,784 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:56:13,786 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 17:57:17,165 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 17:57:17,167 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:00:26,260 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:00:26,262 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:01:58,527 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:01:58,530 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:02:59,284 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:02:59,286 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:04:21,766 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:04:21,768 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:05:18,802 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:05:18,804 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:06:17,965 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:06:17,969 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:08:18,632 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:08:18,634 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:08:58,858 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:08:58,860 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:09:57,130 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:09:57,136 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:14:08,674 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:14:08,677 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:15:53,792 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:15:53,794 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:16:55,741 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:16:55,744 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:17:58,568 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:17:58,570 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:18:38,520 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:18:38,521 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:21:52,974 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:21:52,977 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:21:59,785 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:21:59,788 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-13 18:22:52,087 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-13 18:22:52,088 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-14 00:09:49,252 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-14 00:09:49,259 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources
+2024-10-14 00:10:14,285 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\main\resources
+2024-10-14 00:10:14,288 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosSesionCookies\src\test\resources

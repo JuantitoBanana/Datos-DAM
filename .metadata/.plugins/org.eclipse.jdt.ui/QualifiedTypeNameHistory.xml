@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.Cookie"/>
     <fullyQualifiedTypeName name="java.awt.dnd.DropTargetContext"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>
