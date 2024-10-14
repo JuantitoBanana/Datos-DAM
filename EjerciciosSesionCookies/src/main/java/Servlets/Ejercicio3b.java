@@ -37,11 +37,12 @@ public class Ejercicio3b extends HttpServlet {
 			response.getWriter().append("<h1>Compra total</h1><table border='1'>")
 								.append("<tr><td>Título de libros</td><td>Unidades</td><td>Precio</td></tr>");
 							for (Cookie cookie : cs) {
-								response.getWriter().append("<tr><td>" + cookie.getName() + "</td><td>" + cookie.getValue() + "</td><td>" + libros.get(cookie.getName()) + "</td></tr></table>");
+								response.getWriter().append("<tr><td>" + cookie.getName() + "</td><td>" + cookie.getValue() + "</td><td>" + libros.get(cookie.getName()) + "</td></tr>");
 								suma += (Double.parseDouble(cookie.getValue())) * Double.parseDouble(libros.get(cookie.getName()));
 								cookie.setMaxAge(0);
 								response.addCookie(cookie);
 							}
+			response.getWriter().append("</table>");
 			response.getWriter().append("<h2>Total: " + suma + "</h2>");
 		}
 		else {

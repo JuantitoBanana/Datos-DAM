@@ -27,46 +27,23 @@ public class Ejercicio5 extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) 
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	response.setContentType("text/html");
+        Integer numeroContexto = (Integer) getServletContext().getAttribute("numeroAleatorioContexto");
         
-        // Obtener el contexto de la aplicación
-        ServletContext context = getServletContext();
-        
-        // Obtener el número aleatorio almacenado en el contexto (si existe)
-        Integer numeroContexto = (Integer) context.getAttribute("numeroAleatorioContexto");
-        
-        // Si no hay número en el contexto, generarlo por primera vez
         if (numeroContexto == null) {
-            numeroContexto = generarNumeroAleatorio();
-            context.setAttribute("numeroAleatorioContexto", numeroContexto);
+            numeroContexto = (int)(Math.random() * 10) + 1;
+            getServletContext().setAttribute("numeroAleatorioContexto", numeroContexto);
         }
         
-        // Generar un nuevo número aleatorio para la comparación
-        int numeroAleatorio = generarNumeroAleatorio();
+        int numeroAleatorio = (int)(Math.random() * 10) + 1;
         
-        // Comparar los números y generar el mensaje adecuado
-        String mensaje;
-        if (numeroAleatorio == numeroContexto) {
-            mensaje = "Aleatorio: " + numeroAleatorio + ". Contexto: " + numeroContexto + ". Números iguales.";
-        } else {
-            mensaje = "Aleatorio: " + numeroAleatorio + ". Contexto: " + numeroContexto + ". Números distintos.";
-        }
+        String mensaje = (numeroAleatorio == numeroContexto)? "Aleatorio: " + numeroAleatorio + ". Contexto: " + numeroContexto + ". Números iguales." :"Aleatorio: " + numeroAleatorio + ". Contexto: " + numeroContexto + ". Números distintos.";
         
-        // Actualizar el valor del número en el contexto
-        context.setAttribute("numeroAleatorioContexto", numeroAleatorio);
-        
-        // Enviar la respuesta al cliente
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + mensaje + "</h1>");
-        out.println("</body></html>");
+        getServletContext().setAttribute("numeroAleatorioContexto", numeroAleatorio);
+
+        response.getWriter().append("<h1>" + mensaje + "</h1>");
     }
     
-    // Método auxiliar para generar un número aleatorio entre 1 y 10
-    private int generarNumeroAleatorio() {
-        return (int) (Math.random() * 10) + 1;
-    }
 
 }
