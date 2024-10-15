@@ -40,14 +40,12 @@ public class Ejercicio2 extends HttpServlet {
 			nombre = request.getParameter("nombre");
 			personas.add(nombre);
 		}
-		response.getWriter().append("<html><body>")
-							.append("<p>Hola " + nombre +"</p>")
+		response.getWriter().append("<p>Hola " + nombre +"</p>")
 							.append("<p>Bienvenido a mi primera página web!</p>")
 							.append("<p>Contigo, hoy me han visitado</p>");
 		for (String p : personas) {
 			response.getWriter().append(p + "<br>");
 		}
-		response.getWriter().append("</body></html>");
 	}
 
 }

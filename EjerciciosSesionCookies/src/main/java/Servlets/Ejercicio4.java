@@ -44,8 +44,7 @@ public class Ejercicio4 extends HttpServlet {
 		response.setContentType("text/html");
 		if(request.getParameter("boton").equals("Acceso")) {
 			int cont = (int) sesion.getAttribute("numEntradas");
-			cont++;
-			sesion.setAttribute("numEntradas", cont);
+			sesion.setAttribute("numEntradas", cont + 1);
 		} else if(request.getParameter("boton").equals("Nueva Sesion")) {
 			sesion.invalidate();
 			sesion = request.getSession(true);
