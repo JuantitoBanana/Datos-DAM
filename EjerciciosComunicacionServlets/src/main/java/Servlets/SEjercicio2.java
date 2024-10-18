@@ -1,6 +1,8 @@
 package Servlets;
 
 import java.io.IOException;
+
+import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,6 +22,16 @@ public class SEjercicio2 extends HttpServlet {
     public SEjercicio2() {
         // TODO Auto-generated constructor stub
     }
+    
+    
+
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		super.init(config);
+		config.getServletContext().setAttribute("Error", "<h3>No has elegido ninguna tabla. Elige una tabla por favor.</h3>");
+	}
+
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
