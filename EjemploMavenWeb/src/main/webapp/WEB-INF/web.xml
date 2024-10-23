@@ -11,4 +11,8 @@
   	<param-name>prueba</param-name>
   	<param-value>DAMMMM</param-value>
   </context-param>
+  <context-param>
+  	<param-name></param-name>
+  	<param-value></param-value>
+  </context-param>
 </web-app>
