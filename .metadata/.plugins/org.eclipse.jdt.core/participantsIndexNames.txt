@@ -1,3 +1,5 @@
 INDEX VERSION 1.134
 C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1012827796.index
 \EjerciciosSesionCookies\src\main\java
+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\616762959.index
+\EjemploMavenWeb\src\main\java

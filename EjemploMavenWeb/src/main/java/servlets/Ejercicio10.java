@@ -69,7 +69,6 @@ public class Ejercicio10 extends HttpServlet {
 		
 		try {
 			synchronized (lock) {
-				
 			
 			val = Integer.parseInt(request.getParameter("param"));
 			//Mostrar el proceso que se está ejecutando
