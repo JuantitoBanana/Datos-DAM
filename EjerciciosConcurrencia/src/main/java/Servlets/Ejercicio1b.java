@@ -22,9 +22,10 @@ public class Ejercicio1b extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
     
+    private Object lock = new Object();
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	response.setContentType("text/plain");
-    	synchronized (getServletContext()) {
+    	synchronized (lock) {
             Integer numero = (int) getServletContext().getAttribute("numeroContexto");  
             String mensaje = (numero != null)?"El número almacenado es: " + numero : "No hay número almacenado.";
             response.getWriter().append(mensaje);

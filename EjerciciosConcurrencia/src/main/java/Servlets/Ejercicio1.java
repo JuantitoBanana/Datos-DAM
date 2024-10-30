@@ -22,13 +22,14 @@ public class Ejercicio1 extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
     
+    private Object lock = new Object();
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");
     	String numero = request.getParameter("numero");
         if (numero != null) {
             try {
                 int number = Integer.parseInt(numero);
-                synchronized (getServletContext()) {
+                synchronized (lock) {
                     getServletContext().setAttribute("numeroContexto", number);
                 }
                 Thread.sleep(10000);
@@ -42,5 +43,4 @@ public class Ejercicio1 extends HttpServlet {
             response.getWriter().append("Por favor, proporciona un número en la URL.");
         }
     }
-
 }

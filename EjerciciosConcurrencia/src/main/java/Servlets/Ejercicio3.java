@@ -41,13 +41,13 @@ public class Ejercicio3 extends HttpServlet {
         Date fechaUltimoAcceso = new Date(sesion.getLastAccessedTime());
 
         response.setContentType("text/html");
-        response.getWriter().println("<html><body>");
-        response.getWriter().println("<h1>Información de la sesión</h1>");
-        response.getWriter().println("<p>Usuario: " + usuarioSesion + "</p>");
-        response.getWriter().println("<p>Id de la sesión: " + idSesion + "</p>");
-        response.getWriter().println("<p>Fecha creación sesión: " + fechaCreacion + "</p>");
-        response.getWriter().println("<p>Fecha último acceso: " + fechaUltimoAcceso + "</p>");
-        response.getWriter().println("</body></html>");
+        response.getWriter().append("<html><body>");
+        response.getWriter().append("<h1>Información de la sesión</h1>");
+        response.getWriter().append("<p>Usuario: " + usuarioSesion + "</p>");
+        response.getWriter().append("<p>Id de la sesión: " + idSesion + "</p>");
+        response.getWriter().append("<p>Fecha creación sesión: " + fechaCreacion + "</p>");
+        response.getWriter().append("<p>Fecha último acceso: " + fechaUltimoAcceso + "</p>");
+        response.getWriter().append("</body></html>");
     }
 
 }

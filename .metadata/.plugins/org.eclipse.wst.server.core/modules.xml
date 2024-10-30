@@ -4,6 +4,7 @@
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosSesionCookies" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosComunicacionServlets" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjemploMavenWeb" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:EventosFiltros" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosMavenWeb" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosContexto" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo" serverId="Tomcat v10.1 Server at localhost"/>

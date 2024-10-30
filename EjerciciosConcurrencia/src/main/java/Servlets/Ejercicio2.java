@@ -45,9 +45,9 @@ public class Ejercicio2 extends HttpServlet {
         }
 
         response.setContentType("text/html");
-        response.getWriter().println("<html><body>");
-        response.getWriter().println("<h1>El valor final es: " + valor + "</h1>");
-        response.getWriter().println("</body></html>");
+        response.getWriter().append("<html><body>");
+        response.getWriter().append("<h1>El valor final es: " + valor + "</h1>");
+        response.getWriter().append("</body></html>");
     }
 
 }

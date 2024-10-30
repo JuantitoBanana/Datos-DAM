@@ -25,11 +25,12 @@ public class Ejercicio3b extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
+    private Object lock = new Object();
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         HttpSession sesion = request.getSession(true);
 
-        synchronized (sesion) {
+        synchronized (lock) {
             String usuario = request.getParameter("usuario");
 
             if (usuario != null && sesion.getAttribute("usuario") == null) {
@@ -42,13 +43,13 @@ public class Ejercicio3b extends HttpServlet {
             Date fechaUltimoAcceso = new Date(sesion.getLastAccessedTime());
 
             response.setContentType("text/html");
-            response.getWriter().println("<html><body>");
-            response.getWriter().println("<h1>Información de la sesión</h1>");
-            response.getWriter().println("<p>Usuario: " + usuarioSesion + "</p>");
-            response.getWriter().println("<p>Id de la sesión: " + idSesion + "</p>");
-            response.getWriter().println("<p>Fecha creación sesión: " + fechaCreacion + "</p>");
-            response.getWriter().println("<p>Fecha último acceso: " + fechaUltimoAcceso + "</p>");
-            response.getWriter().println("</body></html>");
+            response.getWriter().append("<html><body>");
+            response.getWriter().append("<h1>Información de la sesión</h1>");
+            response.getWriter().append("<p>Usuario: " + usuarioSesion + "</p>");
+            response.getWriter().append("<p>Id de la sesión: " + idSesion + "</p>");
+            response.getWriter().append("<p>Fecha creación sesión: " + fechaCreacion + "</p>");
+            response.getWriter().append("<p>Fecha último acceso: " + fechaUltimoAcceso + "</p>");
+            response.getWriter().append("</body></html>");
         }
     }
 
