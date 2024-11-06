@@ -36,7 +36,7 @@ public class Ejercicio1 extends HttpServlet {
 							.append("<label>Descripción: </label><input type='text' name='descripcion'><br>")
 							.append("<input type='submit' value='Enviar'>")
 							.append("</form></body></html>");
-		
+		 
 		notificaciones.put(request.getParameter("idTarea"), request.getParameter("descripcion"));
 		getServletContext().setAttribute("notificaciones", notificaciones);
 		if(getServletContext().getAttribute("notificaciones") != null) {

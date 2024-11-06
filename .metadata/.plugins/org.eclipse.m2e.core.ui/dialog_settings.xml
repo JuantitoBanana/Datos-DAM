@@ -30,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.EjerciciosJSP"/>
 			<item value="gf.com.EventosFiltros"/>
 			<item value="gf.com.EjerciciosConcurrencia"/>
 			<item value="gf.com.EjerciciosComunicacionServlets"/>
@@ -39,6 +40,7 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="EjerciciosJSP"/>
 			<item value="EventosFiltros"/>
 			<item value="EjerciciosConcurrencia"/>
 			<item value="EjerciciosComunicacionServlets"/>
