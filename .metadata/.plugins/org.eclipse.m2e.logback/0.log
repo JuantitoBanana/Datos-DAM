@@ -5696,6 +5696,7 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Ej
 2024-10-30 12:06:49,263 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
 2024-10-30 12:09:02,847 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
 2024-10-30 12:09:02,851 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+<<<<<<< Updated upstream
 2024-11-05 10:06:46,227 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-11-05 12:00:25,360 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\resources
 2024-11-05 12:00:25,372 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\test\resources
@@ -5974,3 +5975,53 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
 	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
 	... 26 common frames omitted
+=======
+2024-11-01 13:40:16,410 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-01 13:43:31,492 [Worker-16: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EventosFiltros:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EventosFiltros\pom.xml.
+2024-11-01 13:43:31,492 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EventosFiltros:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EventosFiltros\pom.xml.
+2024-11-01 13:43:34,045 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-01 13:43:34,049 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-01 13:43:35,208 [Worker-41: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EventosFiltros:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EventosFiltros\pom.xml.
+2024-11-01 13:54:21,319 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-01 13:54:21,324 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-01 13:56:19,062 [Worker-43: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-01 13:56:19,068 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-01 13:56:19,072 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-01 14:02:52,075 [Worker-58: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-01 14:02:52,080 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-01 14:02:52,084 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 17:16:45,648 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-04 18:17:01,250 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:17:01,257 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:18:39,040 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:18:39,042 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:32:39,612 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:32:39,616 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:37:25,385 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:37:25,388 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:37:53,284 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:37:53,289 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:38:50,983 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:38:50,986 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:39:16,581 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:39:16,592 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:39:27,101 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:39:27,103 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:39:52,997 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:39:52,999 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:42:11,107 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:42:11,109 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:43:41,568 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjemploMavenWeb:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjemploMavenWeb\pom.xml.
+2024-11-04 18:43:41,815 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\resources
+2024-11-04 18:43:41,819 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\test\resources
+2024-11-04 18:43:42,154 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\resources
+2024-11-04 18:43:42,156 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjemploMavenWeb\src\test\resources
+2024-11-04 18:43:42,156 [Worker-50: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EjemploMavenWeb
+2024-11-04 18:43:42,158 [Worker-50: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for EjemploMavenWeb
+2024-11-04 18:43:42,419 [Worker-48: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjemploMavenWeb:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjemploMavenWeb\pom.xml.
+2024-11-04 18:45:06,530 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:45:06,536 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:46:30,008 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\main\resources
+2024-11-04 18:46:30,010 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EventosFiltros\src\test\resources
+2024-11-04 18:50:15,013 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+>>>>>>> Stashed changes

@@ -36,8 +36,15 @@ public class Ejercicio1 extends HttpServlet {
 							.append("<label>Descripción: </label><input type='text' name='descripcion'><br>")
 							.append("<input type='submit' value='Enviar'>")
 							.append("</form></body></html>");
+<<<<<<< Updated upstream
 		 
 		notificaciones.put(request.getParameter("idTarea"), request.getParameter("descripcion"));
+=======
+		
+		if(request.getParameter("idTarea") != null || request.getParameter("descripcion") != null) {
+			notificaciones.put(request.getParameter("idTarea"), request.getParameter("descripcion"));
+		}
+>>>>>>> Stashed changes
 		getServletContext().setAttribute("notificaciones", notificaciones);
 		if(getServletContext().getAttribute("notificaciones") != null) {
 			notificaciones = (Map) getServletContext().getAttribute("notificaciones");

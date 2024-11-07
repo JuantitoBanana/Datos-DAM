@@ -1,4 +1,5 @@
 INDEX VERSION 1.134+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jdt.core
+<<<<<<< Updated upstream
 585257039.index
 3482221287.index
 1796286946.index
@@ -41,3 +42,12 @@ INDEX VERSION 1.134+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jdt.core
 602612390.index
 3947338886.index
 49355988.index
+=======
+702723852.index
+3077321270.index
+3823335344.index
+764976497.index
+1865797976.index
+1339039484.index
+2917213589.index
+>>>>>>> Stashed changes
