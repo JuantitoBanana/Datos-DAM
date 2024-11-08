@@ -63,7 +63,5 @@ public class Ejercicio1Listener implements ServletContextListener {
             e.printStackTrace();
             return new HashMap<>();
         }
-    }
-    
-    
+    }   
 }
