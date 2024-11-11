@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package ArchivosJava;
+=======
+ package ArchivosJava;
+>>>>>>> origin/main
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -13,6 +17,7 @@ import java.io.IOException;
 @WebServlet("/ServletVotacion")
 public class ServletVotacion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+<<<<<<< HEAD
 	private int votosRuth = 0;
 	private int votosVictor = 0;
 	private int votosBlancos = 0;
@@ -63,6 +68,31 @@ public class ServletVotacion extends HttpServlet {
 		getServletContext().setAttribute("votosVictor", votosVictor);
 		getServletContext().setAttribute("votosBlancos", votosBlancos);
 		request.getRequestDispatcher("Resultados.jsp").forward(request, response);
+=======
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ServletVotacion() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+>>>>>>> origin/main
 	}
 
 }

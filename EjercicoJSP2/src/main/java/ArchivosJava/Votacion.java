@@ -1,6 +1,7 @@
 package ArchivosJava;
 
 public class Votacion {
+<<<<<<< HEAD
 	private String nombre;
 	private int numeroVotos;
 
@@ -20,4 +21,7 @@ public class Votacion {
 	public void setNumeroVotos(int numeroVotos) {
 		this.numeroVotos = numeroVotos;
 	}
+=======
+
+>>>>>>> origin/main
 }
