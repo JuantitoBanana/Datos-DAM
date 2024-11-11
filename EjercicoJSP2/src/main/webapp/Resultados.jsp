@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<<<<<<< HEAD
     <title>Resultados de Votación</title>
 </head>
 <body>
@@ -32,11 +31,4 @@
         <input type="submit" value="Volver">
     </form>
 </body>
-=======
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
 </html>
->>>>>>> origin/main
