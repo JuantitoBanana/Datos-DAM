@@ -6225,3 +6225,50 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2024-11-07 23:59:37,406 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosJSP\src\main\resources
 2024-11-07 23:59:37,408 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjerciciosJSP\src\test\resources
 2024-11-11 17:27:48,196 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-11 17:32:21,090 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjercicoJSP2:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjercicoJSP2\pom.xml.
+2024-11-11 17:32:24,147 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:32:24,151 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:32:24,622 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjercicoJSP2:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjercicoJSP2\pom.xml.
+2024-11-11 17:32:24,663 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:32:24,667 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:32:24,668 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EjercicoJSP2
+2024-11-11 17:32:24,668 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for EjercicoJSP2
+2024-11-11 17:35:05,718 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjercicoJSP2:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjercicoJSP2\pom.xml.
+2024-11-11 17:35:05,831 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:35:05,836 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:35:05,836 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EjercicoJSP2
+2024-11-11 17:35:05,836 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for EjercicoJSP2
+2024-11-11 17:36:19,723 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: gf.com:EjercicoJSP2:0.0.1-SNAPSHOT @ C:\Grado\Datos-DAM\EjercicoJSP2\pom.xml.
+2024-11-11 17:36:19,833 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:36:19,839 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:36:19,839 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EjercicoJSP2
+2024-11-11 17:36:19,839 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for EjercicoJSP2
+2024-11-11 17:41:25,513 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:41:25,515 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:43:37,273 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:43:37,276 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:45:03,937 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:45:03,940 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:45:04,992 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:45:04,994 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:45:09,838 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:45:09,839 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:46:11,297 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:46:11,299 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:48:43,291 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:48:43,294 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:49:42,429 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:49:42,432 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:51:00,115 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:51:00,117 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:51:30,427 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:51:30,429 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 17:55:12,465 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-11 17:59:10,177 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 17:59:10,184 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 18:00:27,783 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 18:00:27,785 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 18:00:31,322 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 18:00:31,325 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 18:01:00,901 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 18:01:00,906 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources

@@ -1,4 +1,4 @@
- package ArchivosJava;
+package ArchivosJava;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -13,29 +13,56 @@ import java.io.IOException;
 @WebServlet("/ServletVotacion")
 public class ServletVotacion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ServletVotacion() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+	private int votosRuth = 0;
+	private int votosVictor = 0;
+	private int votosBlancos = 0;
+	private int numeroVotaciones = 0;
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+	public ServletVotacion() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String[] candidatos = request.getParameterValues("candidato");
+
+		numeroVotaciones++;
+		if (numeroVotaciones >= 6) {
+			numeroVotaciones = 0;
+			votosRuth = 0;
+			votosVictor = 0;
+			votosBlancos = 0;
+		}
+
+		if (candidatos == null) {
+			votosBlancos++;
+		} else {
+			for (String candidato : candidatos) {
+				if (candidato.equals("Ruth Fernández")) {
+					votosRuth++;
+				} else if (candidato.equals("Victor Vergel")) {
+					votosVictor++;
+				}
+			}
+		}
+
+		getServletContext().setAttribute("votosRuth", votosRuth);
+		getServletContext().setAttribute("votosVictor", votosVictor);
+		getServletContext().setAttribute("votosBlancos", votosBlancos);
+		request.getRequestDispatcher("Resultados.jsp").forward(request, response);
 	}
 
 }
