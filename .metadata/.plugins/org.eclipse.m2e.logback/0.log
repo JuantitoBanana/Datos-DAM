@@ -6405,3 +6405,6 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2024-11-11 18:05:18,887 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
 2024-11-11 18:05:42,024 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
 2024-11-11 18:05:42,028 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-11 18:07:12,514 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\main\resources
+2024-11-11 18:07:12,516 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicoJSP2\src\test\resources
+2024-11-12 18:57:20,679 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
