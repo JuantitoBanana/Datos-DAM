@@ -1,3 +1,9 @@
 INDEX VERSION 1.134
+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2710971326.index
+\EjercicioConsultora\src\main\java
 C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4018438632.index
 \EjercicoJSP2\src\main\java
+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\616762959.index
+\EjemploMavenWeb\src\main\java
+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3519577146.index
+\EventosFiltros\src\main\java
