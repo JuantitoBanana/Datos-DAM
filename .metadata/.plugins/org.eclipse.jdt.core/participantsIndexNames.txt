@@ -3,6 +3,8 @@ C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2710971
 \EjercicioConsultora\src\main\java
 C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4018438632.index
 \EjercicoJSP2\src\main\java
+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1492142086.index
+\EjercicioJSP3\src\main\java
 C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\616762959.index
 \EjemploMavenWeb\src\main\java
 C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3519577146.index

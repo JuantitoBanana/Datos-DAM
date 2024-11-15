@@ -6729,3 +6729,14 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2024-11-13 12:05:10,177 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\test\resources
 2024-11-13 12:05:22,200 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\main\resources
 2024-11-13 12:05:22,202 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\test\resources
+2024-11-13 12:07:25,021 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\main\resources
+2024-11-13 12:07:25,026 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\test\resources
+2024-11-13 12:07:40,753 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\main\resources
+2024-11-13 12:07:40,757 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\test\resources
+2024-11-13 12:08:10,344 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\main\resources
+2024-11-13 12:08:10,347 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioConsultora\src\test\resources
+2024-11-15 10:09:18,484 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-15 10:21:58,943 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioJSP3\src\main\resources
+2024-11-15 10:21:58,951 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioJSP3\src\test\resources
+2024-11-15 12:02:19,252 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioJSP3\src\main\resources
+2024-11-15 12:02:19,255 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Grado\Datos-DAM\EjercicioJSP3\src\test\resources
