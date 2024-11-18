@@ -1,4 +1,5 @@
 INDEX VERSION 1.4+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+<<<<<<< HEAD
 3590852620.index
 764976497.index
 2370522207.index
@@ -6,3 +7,15 @@ INDEX VERSION 1.4+C:\Grado\Datos-DAM\.metadata\.plugins\org.eclipse.wst.jsdt.cor
 1377039697.index
 2710971326.index
 3075103993.index
+=======
+1377039697.index
+764976497.index
+2060672690.index
+1492142086.index
+451395074.index
+2370522207.index
+3778402285.index
+3590852620.index
+1663377409.index
+2553109943.index
+>>>>>>> origin/main
