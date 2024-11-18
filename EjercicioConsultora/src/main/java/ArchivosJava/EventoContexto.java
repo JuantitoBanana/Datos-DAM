@@ -13,27 +13,13 @@ import jakarta.servlet.http.HttpSessionListener;
  *
  */
 @WebListener
-public class Evento implements HttpSessionListener, ServletContextListener {
+public class EventoContexto implements HttpSessionListener, ServletContextListener {
 
     /**
      * Default constructor. 
      */
-    public Evento() {
+    public EventoContexto() {
         // TODO Auto-generated constructor stub
-    }
-
-	/**
-     * @see HttpSessionListener#sessionCreated(HttpSessionEvent)
-     */
-    public void sessionCreated(HttpSessionEvent se)  { 
-         // TODO Auto-generated method stub
-    }
-
-	/**
-     * @see HttpSessionListener#sessionDestroyed(HttpSessionEvent)
-     */
-    public void sessionDestroyed(HttpSessionEvent se)  { 
-         // TODO Auto-generated method stub
     }
 
 	/**
