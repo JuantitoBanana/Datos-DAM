@@ -15,7 +15,7 @@
 		<label>Categoría Profesional: </label><input type="radio" name="categoriaProfesional" value="I" checked="checked">I
 		<input type="radio" name="categoriaProfesional" value="II">II
 		<input type="radio" name="categoriaProfesional" value="III">III<br>
-		<input type="submit" value="Registro">
+		<input type="submit" name="boton" value="Registro">
 	</form>
 			<%
             if (getServletContext().getAttribute("error") != null) {

@@ -23,7 +23,7 @@
 			}
 			%>
 		</select><br>
-		<input type="submit" value="Acceso">
+		<input type="submit" name="boton" value="Acceso">
 	</form>
 	<p>A las <%= session.getAttribute("fechaCreacion") %> se creó esta sesión con el identificador: <%= session.getAttribute("identificadorSesion") %></p>
 	

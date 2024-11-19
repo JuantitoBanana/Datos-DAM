@@ -25,9 +25,8 @@ public class EventoSesion implements HttpSessionListener {
      * @see HttpSessionListener#sessionCreated(HttpSessionEvent)
      */
     public void sessionCreated(HttpSessionEvent se)  { 
-    	HttpSession sesion = se.getSession();
-    	sesion.setAttribute("fechaCreacion", new Date(System.currentTimeMillis()).toString());
-    	sesion.setAttribute("identificadorSesion", sesion.getId());
+    	se.getSession().setAttribute("fechaCreacion", new Date(se.getSession().getCreationTime()).toString());
+    	se.getSession().setAttribute("identificadorSesion", se.getSession().getId());
     }
 
 	/**

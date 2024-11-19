@@ -27,7 +27,7 @@
 	</table><br>
 	
 	<form action="Acceso.jsp" method="get">
-		<input type="submit" value="Acceso">
+		<input type="submit" name="boton" value="Acceso">
 	</form>
 </body>
 </html>
