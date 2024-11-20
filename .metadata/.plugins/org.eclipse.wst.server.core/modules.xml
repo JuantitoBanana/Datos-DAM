@@ -6,6 +6,7 @@
   <module moduleId="org.eclipse.jst.jee.server:EjemploMavenWeb" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjercicoJSP2" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EventosFiltros" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:EjercicioCotizacion" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosJSP" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjercicioConsultora" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosMavenWeb" serverId="Tomcat v10.1 Server at localhost"/>

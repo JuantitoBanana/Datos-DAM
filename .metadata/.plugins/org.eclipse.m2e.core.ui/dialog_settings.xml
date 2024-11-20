@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Grado\Datos-DAM\EjercicioConsultora\src\main\webapp\Aplicacion.jsp"/>
 			<item value="C:\Grado\Datos-DAM\EjerciciosContexto"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\java\servlets\Ejemplo6.java"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb"/>
@@ -30,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.EjercicioCotizacion"/>
 			<item value="gf.com.EjercicioConsultora"/>
 			<item value="gf.com.ejercicioJSP3"/>
 			<item value="gf.com.EjercicoJSP2"/>
@@ -43,6 +45,7 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="EjercicioCotizacion"/>
 			<item value="EjercicioConsultora"/>
 			<item value="ejercicioJSP3"/>
 			<item value="EjercicoJSP2"/>
