@@ -51,9 +51,7 @@ public class ServletCotizacion extends HttpServlet {
 			}break;
 			
 			case "Enviar":{
-				for(String s :request.getParameterValues("valoresNuevos")){
-					System.out.println(s);
-				}
+				System.err.println(request.getParameterValues("valoresNuevos"));
 				page = "ConsultaCotizacion.jsp";
 			}break;
 		}

@@ -19,7 +19,7 @@
 	<table border="1">
 		<tr><td>Ciclo</td><td>Valor Actual</td><td>Valor Nuevo</td></tr>
 		<% for(String valor : mapaValores.keySet()){%>
-		<tr><td><%=valor %></td><td><%= mapaValores.get(valor) %></td><td><input type="text" name="valoresNuevos"></td></tr>
+		<tr><td><%=valor %></td><td><%= mapaValores.get(valor) %></td><td><input type="text" name="valor"></td></tr>
 		<%} %>
 	</table><br>
 	<form action="ServletCotizacion" method="post">
