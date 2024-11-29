@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\"/>
 			<item value="C:\Grado\Datos-DAM\EjercicioConsultora\src\main\webapp\Aplicacion.jsp"/>
 			<item value="C:\Grado\Datos-DAM\EjerciciosContexto"/>
 			<item value="C:\Grado\Datos-DAM\EjemploMavenWeb\src\main\java\servlets\Ejemplo6.java"/>
@@ -31,29 +32,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="gf.com.EjercicioCotizacion"/>
-			<item value="gf.com.EjercicioConsultora"/>
-			<item value="gf.com.ejercicioJSP3"/>
-			<item value="gf.com.EjercicoJSP2"/>
-			<item value="gf.com.EjerciciosJSP"/>
-			<item value="gf.com.EventosFiltros"/>
-			<item value="gf.com.EjerciciosConcurrencia"/>
-			<item value="gf.com.EjerciciosComunicacionServlets"/>
-			<item value="gf.com.EjerciciosSesionCookies"/>
+			<item value="gf.com.EjemploJDBC"/>
+			<item value="gf.com.Examen2_JuanJose_BlancoDiaz"/>
 		</list>
 		<list key="groupId">
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
-			<item value="EjercicioCotizacion"/>
-			<item value="EjercicioConsultora"/>
-			<item value="ejercicioJSP3"/>
-			<item value="EjercicoJSP2"/>
-			<item value="EjerciciosJSP"/>
-			<item value="EventosFiltros"/>
-			<item value="EjerciciosConcurrencia"/>
-			<item value="EjerciciosComunicacionServlets"/>
-			<item value="EjerciciosSesionCookies"/>
+			<item value="EjemploJDBC"/>
+			<item value="Examen2_JuanJose_BlancoDiaz"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
