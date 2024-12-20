@@ -1,0 +1,34 @@
+protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		JasperReport jasperReport= null;
+		JasperPrint jasperPrint= null;
+		Connection conn= null;
+		
+		try{
+			conn= (Connection) conexionBD.getConnection();
+			jasperReport= JasperCompileManager.compileReport("C:/Users/pinfersa/JaspersoftWorkspace/ExampleReport/Ejercicio12.jrxml");
+			Map<String, Object> parameters= new HashMap<String, Object>();
+			jasperPrint= JasperFillManager.fillReport(jasperReport, parameters, conn);
+			
+			File outDir= new File("D:/MisArchivos/EclipseAD/Reports");
+			outDir.mkdir();
+			JasperExportManager.exportReportToPdfFile(jasperPrint, "D:/MisArchivos/EclipseAD/Reports/Ejercicio12.pdf");
+			System.out.println("Documento creado!");
+			JasperPrint jasperPrintWindow= JasperFillManager.fillReport("C:/Users/pinfersa/JaspersoftWorkspace/ExampleReport/Ejercicio12.jasper", null, conn);
+			
+			JasperViewer jasperViewer= new JasperViewer(jasperPrintWindow);
+			jasperViewer.setVisible(true);
+			
+		}catch (JRException e) {
+			e.printStackTrace();
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if(conn!=null) {
+				try {
+					conn.close();
+				}catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}

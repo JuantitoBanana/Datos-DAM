@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EmpleadosReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3834e146-e9fe-41ea-aa6c-735e797a8509">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter NUEVO"/>
+	<queryString language="SQL">
+		<![CDATA[select * from empresa.empleados, empresa.departamentos where empleados.deptNo = departamentos.dptoNo]]>
+	</queryString>
+	<field name="empNo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="empNo"/>
+		<property name="com.jaspersoft.studio.field.label" value="empNo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="apellidos" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="apellidos"/>
+		<property name="com.jaspersoft.studio.field.label" value="apellidos"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="oficio" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="oficio"/>
+		<property name="com.jaspersoft.studio.field.label" value="oficio"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="salario" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="salario"/>
+		<property name="com.jaspersoft.studio.field.label" value="salario"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="deptNo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="deptNo"/>
+		<property name="com.jaspersoft.studio.field.label" value="deptNo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleados"/>
+	</field>
+	<field name="dptoNo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="dptoNo"/>
+		<property name="com.jaspersoft.studio.field.label" value="dptoNo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="departamentos"/>
+	</field>
+	<field name="dNombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="dNombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="dNombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="departamentos"/>
+	</field>
+	<group name="nombre">
+		<groupExpression><![CDATA[$F{nombre}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="90" splitType="Stretch">
+			<staticText>
+				<reportElement x="152" y="20" width="250" height="47" uuid="03d147ed-a1c9-4e04-8731-9ab7c4ece7af"/>
+				<textElement textAlignment="Center">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[LISTA EMPLEADOS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="55" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="129" height="30" uuid="5d566426-3772-42a3-b5fa-1efd007e0ff9"/>
+				<text><![CDATA[Fecha expedición listado:]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="130" y="10" width="100" height="30" uuid="1b57f709-2471-4aa6-8752-c67756dcc299"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm">
+				<reportElement x="260" y="10" width="100" height="30" uuid="8f05a23a-5668-40f0-9ee2-d6101ae99be9"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="40" width="510" height="5" uuid="1c77123b-ca59-4c84-b124-76d5871c2eaa"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="27" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="185" splitType="Stretch">
+			<textField>
+				<reportElement x="50" y="19" width="100" height="30" uuid="18e122e8-ea0a-4314-8551-fffa964595e5"/>
+				<textFieldExpression><![CDATA[$F{dNombre}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="19" width="40" height="30" uuid="ea390f52-4b59-4452-a007-34a1cdcf4eca"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dept:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="60" width="130" height="29" uuid="ed70a019-867a-4cec-a8de-dfecef2eb4b3"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Empleados Registrados: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="100" width="100" height="30" uuid="b9279846-1c43-4a17-9e46-4065a88ae177"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Apellidos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="100" width="100" height="30" uuid="c57fa3a5-c17e-42fc-8790-81c4a0549c45"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Salario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="100" width="100" height="30" uuid="ec193f7c-c655-43dd-a3f3-a7e9fc9e9814"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Oficio]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="140" width="390" height="5" uuid="b35625a5-a636-4d6c-ae1f-c50896f9f730"/>
+			</line>
+			<textField>
+				<reportElement x="14" y="150" width="100" height="30" uuid="3562f7c1-085e-49b9-8432-e3fd3b94d422"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{apellidos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="150" width="100" height="30" uuid="270138c9-bda5-4308-bcf0-b1a680079b95"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{oficio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="150" width="100" height="30" uuid="87804ff9-a9c7-44f3-8de1-714bc1ae8db9"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{salario}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

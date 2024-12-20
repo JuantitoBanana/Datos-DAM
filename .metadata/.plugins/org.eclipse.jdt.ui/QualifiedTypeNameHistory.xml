@@ -34,4 +34,9 @@
     <fullyQualifiedTypeName name="com.gf.webapp.matriculas.dao.AlumnoDAO"/>
     <fullyQualifiedTypeName name="com.gf.webapp.matriculas.ln.AlumnosLN"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="javax.naming.Context"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="com.gf.webapp.empresa.entities.Empleado"/>
+    <fullyQualifiedTypeName name="com.gf.webapp.empresa.dao.EmpleadoDAO"/>
 </qualifiedTypeNameHistroy>

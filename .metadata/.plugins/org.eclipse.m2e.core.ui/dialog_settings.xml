@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Grado\Datos-DAM\Ejercicio12_ManejoReports\target"/>
+			<item value="C:\Grado\Datos-DAM\EjemploMatricula\src\main\webapp\Mensaje.jsp"/>
 			<item value="D:\"/>
 			<item value="C:\Grado\Datos-DAM\EjercicioConsultora\src\main\webapp\Aplicacion.jsp"/>
 			<item value="C:\Grado\Datos-DAM\EjerciciosContexto"/>
@@ -32,6 +34,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.Ejercicio12_Reports"/>
+			<item value="gf.com.Ejercicio12_ManejoReports"/>
+			<item value="gf.com.EjemploMatricula"/>
 			<item value="gf.com.EjemploJDBC"/>
 			<item value="gf.com.Examen2_JuanJose_BlancoDiaz"/>
 		</list>
@@ -39,6 +44,9 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="Ejercicio12_Reports"/>
+			<item value="Ejercicio12_ManejoReports"/>
+			<item value="EjemploMatricula"/>
 			<item value="EjemploJDBC"/>
 			<item value="Examen2_JuanJose_BlancoDiaz"/>
 		</list>
