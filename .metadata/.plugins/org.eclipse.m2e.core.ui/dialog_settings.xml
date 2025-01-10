@@ -34,6 +34,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.WebEmpresa"/>
 			<item value="gf.com.Ejercicio12_Reports"/>
 			<item value="gf.com.Ejercicio12_ManejoReports"/>
 			<item value="gf.com.EjemploMatricula"/>
@@ -44,6 +45,7 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="WebEmpresa"/>
 			<item value="Ejercicio12_Reports"/>
 			<item value="Ejercicio12_ManejoReports"/>
 			<item value="EjemploMatricula"/>
@@ -96,6 +98,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
