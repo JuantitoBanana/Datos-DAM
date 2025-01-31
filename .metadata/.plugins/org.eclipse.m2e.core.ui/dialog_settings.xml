@@ -34,6 +34,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="gf.com.Reto2_HibernateMVC"/>
 			<item value="gf.com.WebEmpresa"/>
 			<item value="gf.com.Ejercicio12_Reports"/>
 			<item value="gf.com.Ejercicio12_ManejoReports"/>
@@ -45,6 +46,7 @@
 			<item value="gf.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="Reto2_HibernateMVC"/>
 			<item value="WebEmpresa"/>
 			<item value="Ejercicio12_Reports"/>
 			<item value="Ejercicio12_ManejoReports"/>

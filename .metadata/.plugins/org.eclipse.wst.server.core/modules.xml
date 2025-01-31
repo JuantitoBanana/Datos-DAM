@@ -11,6 +11,7 @@
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosConcurrencia" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosComunicacionServlets" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Reto2_HibernateMVC" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjemploMavenWeb" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjercicoJSP2" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EventosFiltros" serverId="Tomcat v10.1 Server at localhost"/>

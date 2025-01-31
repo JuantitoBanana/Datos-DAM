@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Pojo.Producto"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletContext"/>
@@ -39,13 +38,19 @@
     <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
     <fullyQualifiedTypeName name="com.gf.webapp.empresa.entities.Empleado"/>
     <fullyQualifiedTypeName name="com.gf.webapp.empresa.dao.EmpleadoDAO"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistry"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistry"/>
     <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+    <fullyQualifiedTypeName name="ln.RegistrosLN"/>
+    <fullyQualifiedTypeName name="entities.RegistrosId"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="entities.Registros"/>
+    <fullyQualifiedTypeName name="dao.RegistrosDAO"/>
 </qualifiedTypeNameHistroy>
